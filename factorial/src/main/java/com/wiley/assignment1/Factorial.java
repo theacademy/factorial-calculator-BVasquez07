@@ -34,7 +34,7 @@ public class Factorial {
 		*/
 
 		//YOUR CODE STARTS HERE
-		 try {
+		 try { // added exception handling for bug
 			 num = Integer.parseInt(scanner.nextLine());
 		 } catch(NumberFormatException ex){
 			 this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
